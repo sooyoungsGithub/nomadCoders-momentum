@@ -3,21 +3,26 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Something</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name ?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
-    <span class="js-weather"></span>
+    <section class="whole">
+      <section class="wholeSection"></section>
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name ?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+          <input class="input" type="text" placeholder="Write to do" />
+        </form>
+        <ul class="js-toDoList"></ul>
+        <span class="js-weather weather"></span>
+      </section>
+    </section>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>

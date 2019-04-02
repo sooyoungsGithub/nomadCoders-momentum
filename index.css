@@ -1,9 +1,63 @@
+body,
+div,
+form,
+h4,
+h1,
+input,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: hack;
+}
+
+ul {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  padding-left: 10px;
+}
+
 body {
   background-color: #6b7072;
 }
 
-.btn {
+h1 {
+  font-size: 120px;
+}
+
+h4 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+input {
+  padding: 0.4em 0.25em;
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1.55em;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70em;
+}
+
+a {
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 body {
@@ -21,6 +75,10 @@ body {
 
 .showing {
   display: block;
+}
+
+.weather {
+  font-size: 25px;
 }
 
 @keyframes fadeIn {
